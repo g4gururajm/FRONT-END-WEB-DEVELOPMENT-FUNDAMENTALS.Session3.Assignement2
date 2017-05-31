@@ -1,0 +1,62 @@
+<!-- declaration refers to a DTD-->
+<!DOCTYPE html>
+
+<!-- Specifiying HTML language has English-->
+<html lang="en">
+
+<!--Head element-->
+<head>
+	<!-- The <meta> tag provides metadata about the HTML and Specify the character encoding for the HTML -->
+	<meta charset="UTF-8">
+	
+	<!-- Define a description of your web page -->
+	<meta name="description" content="Free Web tutorials">
+	
+	<!--  Define keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML, XHTML,JavaScript">
+	
+	<!-- Define the author of a page -->
+	<meta name="author" content="Gururaj">
+	
+	<!-- Setting the viewport to make your website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- It defines the title of the document-->
+	<title>HTML CSS</title>
+	
+	<!-- External styles 'Styles.css' are linked with this html doc -->
+	<link rel='stylesheet' type='text/css' href='Styles.css'>
+	
+	<!-- The Style tag provides the internal or Embedded styles for HTML Doc-->
+	<style type="text/css">
+	/* internal style of the div for margine 50px */
+	.container {
+		margin:50px
+	}
+	<!-- Internal style tag close here -->
+	</style>
+<!-- Head of the html doc close -->
+</head>
+<!-- Body of the html doc opens here-->
+<body>
+	<!-- Div with class container to get internal style on html doc -->
+	<div class="container">
+		<!-- Image tag to put world press image on the html doc -->
+		<img src="wordpress-logo-hoz-rgb.png"> 
+			<!-- pragraph with bold the content and input tag to fetch/load file from folder browse using webkit-->
+			<p><b> Upload a theme       
+				<input type="file" multiple webkitdirectory/> 
+			</b></p> 
+	</div>
+	<!-- label with conta bold includes form input to search the theme file from the wordpress with hyperlink to worlpress web site -->
+	<label><b>Or Search in Wordpress
+	<form class="form-wrapper cf" style="margin-top: 10px;">
+		 <!--input to search the theme file from the wordpress with hyperlink to worlpress web site with wordpress icon internal style 45 & width 50-->
+		<input type="text" placeholder="Search here..."><a href="https://wordpress.com/"><img src="wordpress.jpg" height="45" width="50"> 
+	</form></b>
+	</label>
+<!-- Body of the html doc ends here -->
+</body>
+<!-- HTML ends here-->
+</html>
+

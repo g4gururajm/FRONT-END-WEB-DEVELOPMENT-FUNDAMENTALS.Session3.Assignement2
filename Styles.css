@@ -1,0 +1,76 @@
+/* External tag for html doc for the body of the page with url for background*/
+ body {
+        background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpi/P//PwM6YGLAAuCCmpqacC2MRGsHCDAA+fIHfeQbO8kAAAAASUVORK5CYII=);
+        font: 15px 'Lucida sans', Arial, Helvetica; 		/* specify the fonts size on the body with fonts type */
+        color: #000;										/* Color has white for the body of the doc*/
+        text-align: center;									/* Text on the html body aligned center*/
+    }
+
+/* */	
+.form-wrapper {
+        width: 410px;																		/* width of the form wrapper on html doc*/
+        padding: 13px;																		/* padding of the form wrapper on html doc*/
+        margin: 50px auto 50px auto;														/* margin of the form wrapper on html doc */
+        background: #000;																	/* background color white  */
+        background: rgba(0,0,0,0.2);														/* background color white with rgb and alpha */
+        -moz-border-radius: 10px;															/* mozilla border radius set to 10px*/
+        -webkit-border-radius: 10px;														/* webkit border radius set to 10px */
+        border-radius: 10px;																/* set border radius set to 10px*/
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);		/* shadow of the box for mozilla*/
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);	/* shadow of the box for other webpage by using webkit*/
+        box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);			/* shadow of the box */
+}
+
+.form-wrapper label{
+	font-size: 15px; 					 /* internal font size*/
+    display: inline-block;				 /* label & input block align */
+    margin: 1px;						 /* label  location on div */
+    line-height: 22px;					 /* label line height on div */
+	padding-top: 3px;					 /* label padding top on div */
+    height: 15px;						 /* label height on div */
+    vertical-align: middle;				 /* label vertical align on div */
+	text-align: left-middle;  			 /* label text align on div */
+	border-radius: .3em;				 /* input curve style and its radius */
+	padding-left:5px;					 /* lable padding left on html doc */
+	padding-bottom: 12px; 				 /* lable & input bottom padding on html doc*/
+}
+.form-wrapper input {
+        width: 330px;												/* width of the input */
+        height: 20px;												/* height of the input */
+        padding: 10px 5px;											/* padding top and right*/
+        float: left;   												/* input place holder float*/ 
+        font: bold 20px 'lucida sans', 'trebuchet MS', 'Tahoma';	/* fonts set to */
+        border: 0;													/* boarder set to 20px with different fonts style */
+        background: #eee;											/* Input palceholder set light gray for mozilla */
+        -moz-border-radius: 3px 0 0 3px;		     				/* border radius circle*/
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+}
+    
+.form-wrapper input:focus {
+    outline: 0; 										/* Input outline set to zero */
+    background: #fff;									/* Input of placeholder set to white*/
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.8) inset; 	/* Input of the placeholder ligth gray when cursor place for mozilla*/
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;	/* Input of the placeholder shadow color ligth gray */
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;			/*  Box shadow with light gray*/
+}
+    
+.form-wrapper input::-webkit-input-placeholder {
+       color: #999;										/* Set the placeholder input with gray*/
+       font-weight: normal;								/* Placeholder fonts weight normal*/
+       font-style: italic;								/* Fonts on the search tag placeholder set to italic */
+}
+    
+.form-wrapper input:-moz-placeholder {
+        color: #999;									/* Set the placeholder input with gray*/
+        font-weight: normal;							/* Placeholder fonts weight normal*/
+        font-style: italic;								/* Fonts on the search tag placeholder set to italic */
+}
+    
+.form-wrapper input:-ms-input-placeholder {
+        color: #999;									/* Set the placeholder input with gray*/
+        font-weight: normal;							/* Placeholder fonts weight normal*/
+        font-style: italic;								/* Fonts on the search tag placeholder set to italic */
+}    
+    
+   
